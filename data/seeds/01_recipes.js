@@ -14,13 +14,13 @@ exports.seed = async function(knex) {
 
   await knex('steps').truncate()
   await knex('steps').insert([
-    {step_id: 11, instructions: 'Put a large saucepan on a medium heat', recipe_id: 1, step_number: 1},
-    {step_id: 12, instructions: 'Add 1 tbsp olive oil', recipe_id: 1, step_number: 2},
-    {step_id: 13, instructions: 'Turn on the oven', recipe_id: 2, step_number: 1},
-    {step_id: 14, instructions: 'Put the pizza in the oven', recipe_id: 2, step_number: 2},
-    {step_id: 15, instructions: 'Remove the pizza from the oven after 15 minutes', recipe_id: 2, step_number: 3},
-    {step_id: 16, instructions: 'Mix together butter, eggs, and flour', recipe_id: 3, step_number: 1},
-    {step_id: 17, instructions: 'Add in oats, chocolate chips, and sugar', recipe_id: 3, step_number: 2}
+    {step_id: 11, step_instructions: 'Put a large saucepan on a medium heat', recipe_id: 1, step_number: 1},
+    {step_id: 12, step_instructions: 'Add 1 tbsp olive oil', recipe_id: 1, step_number: 2},
+    {step_id: 13, step_instructions: 'Turn on the oven', recipe_id: 2, step_number: 1},
+    {step_id: 14, step_instructions: 'Put the pizza in the oven', recipe_id: 2, step_number: 2},
+    {step_id: 15, step_instructions: 'Remove the pizza from the oven after 15 minutes', recipe_id: 2, step_number: 3},
+    {step_id: 16, step_instructions: 'Mix together butter, eggs, and flour', recipe_id: 3, step_number: 1},
+    {step_id: 17, step_instructions: 'Add in oats, chocolate chips, and sugar', recipe_id: 3, step_number: 2}
   ]);
 
 

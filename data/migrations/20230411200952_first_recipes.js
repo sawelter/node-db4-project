@@ -13,7 +13,7 @@ exports.up = function(knex) {
     })
     .createTable('steps', table => {
         table.increments('step_id');
-        table.string('instructions', 500)
+        table.string('step_instructions', 500)
             .notNullable();
         table.integer('step_number')
             .unsigned();
