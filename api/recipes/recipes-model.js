@@ -33,7 +33,7 @@ const db = require('../../data/db-config');
       ]
     },
   ]
-}*/
+}  */
 
 const getRecipeById = async (recipe_id) => {
     const rows = await db('recipes as r')
