@@ -20,7 +20,8 @@ exports.seed = async function(knex) {
     {step_id: 14, step_instructions: 'Put the pizza in the oven', recipe_id: 2, step_number: 2},
     {step_id: 15, step_instructions: 'Remove the pizza from the oven after 15 minutes', recipe_id: 2, step_number: 3},
     {step_id: 16, step_instructions: 'Mix together butter, eggs, and flour', recipe_id: 3, step_number: 1},
-    {step_id: 17, step_instructions: 'Add in oats, chocolate chips, and sugar', recipe_id: 3, step_number: 2}
+    {step_id: 17, step_instructions: 'Add in oats, chocolate chips, and sugar', recipe_id: 3, step_number: 2},
+    {step_id: 18, step_instructions: 'Bake cookies', recipe_id: 3, step_number: 3}
   ]);
 
 
